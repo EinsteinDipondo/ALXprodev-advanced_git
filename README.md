@@ -1,15 +1,25 @@
 # ALXprodev Advanced Git Project
 
-## GitFlow Workflow Implementation
+## GitFlow Implementation
 
-This repository demonstrates the GitFlow branching model using git-flow AVH Edition 1.12.3.
+This project demonstrates GitFlow workflow using git-flow AVH Edition.
 
-### Branch Structure:
-- **main**: Production code (stable releases)
-- **develop**: Integration branch for ongoing development
-- **feature/**: Individual feature branches
-- **release/**: Release preparation branches
-- **hotfix/**: Emergency production fixes
+### Setup Verified:
+- ✓ Git Flow 1.12.3 (AVH Edition) installed
+- ✓ develop branch created and pushed
+- ✓ main branch configured for releases
+- ✓ Git Flow initialized with default settings
 
-### Git Flow Commands:
+### Branch Prefixes:
+- Feature branches: feature/*
+- Release branches: release/*
+- Hotfix branches: hotfix/*
+- Bugfix branches: bugfix/*
+- Support branches: support/*
 
+### Next Steps:
+1. Create features: `git flow feature start feature-name`
+2. Finish features: `git flow feature finish feature-name`
+3. Start releases: `git flow release start 1.0.0`
+4. Handle hotfixes: `git flow hotfix start 1.0.1`
+EOF
